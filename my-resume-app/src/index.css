@@ -1,0 +1,19 @@
+/* Simple base */
+:root { --bg: #f7fafc; --card: #fff; --muted:#6b7280; --accent:#6366f1; }
+*{box-sizing:border-box}
+html,body,#root{height:100%;margin:0}
+body{font-family:Inter, Arial, sans-serif;background:var(--bg);color:#0f172a}
+.container{max-width:1200px;margin:18px auto;padding:12px}
+.grid{display:grid;grid-template-columns:360px 1fr 320px;gap:18px}
+.panel{background:var(--card);padding:14px;border-radius:10px;box-shadow:0 6px 20px rgba(2,6,23,0.06)}
+.btn{padding:8px 12px;border-radius:8px;border:0;background:var(--accent);color:white;cursor:pointer}
+.muted{color:var(--muted);font-size:13px}
+.preview-frame{min-height:720px;display:flex;align-items:center;justify-content:center}
+.resume{width:800px;max-width:100%;background:white;padding:26px;border-radius:10px;box-shadow:0 14px 40px rgba(2,6,23,0.06)}
+.ats-resume{max-width:780px;background:white;padding:18px}
+.input, textarea{width:100%;padding:8px;border-radius:8px;border:1px solid #e6e9ef}
+textarea{min-height:72px;resize:vertical}
+.small{display:flex;gap:8px}
+.small .input{flex:1}
+.tag{display:inline-flex;align-items:center;padding:4px 8px;border-radius:6px;background:#eef2ff;color:#3730a3;margin-right:6px}
+.badge{border:1px solid #e6e9ef;padding:6px;border-radius:6px}
